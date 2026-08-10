@@ -1,0 +1,21 @@
+{
+  "name": "学习目标管理台",
+  "short_name": "学习目标台",
+  "description": "有终点、有总量的个人学习目标追踪工作台：打卡补记、风险预警、每日上限，支持离线使用与安装到主屏。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#F4F2ED",
+  "theme_color": "#2F5D62",
+  "categories": ["productivity", "education", "lifestyle"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
